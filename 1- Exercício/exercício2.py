@@ -1,0 +1,7 @@
+valor1 = input("Digite um número ")
+valor2 = input("Digite outro número ")
+soma = int(valor1) + int(valor2)
+print ("O número é", soma)
+print ("O número é %d" % soma)
+print ("O número é {}".format(soma))
+print (f"O número é {soma}.")
